@@ -10,3 +10,68 @@ body {
 }
 
 /* create your child rules here:  */
+
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 6 equal-width columns */
+    grid-template-rows: repeat(5, 100px); /* 5 rows of equal height */
+    gap: 10px; /* Space between grid items */
+}
+
+.item-1 {
+    grid-column: 1 / span 3; /* Starts at column 2, spans 4 columns */
+    grid-row: 1; /* Occupies the first row */
+    background-color:white;
+    text-align: center;
+    padding: 20px;
+    border: black solid;
+}
+
+.item-2 {
+    grid-column: 3 / span 3; /* Starts at column 4, spans 2 columns */
+    grid-row: 2; /* Occupies the second row */
+    background-color:white;
+    text-align: center;
+    padding: 20px;
+    border: black solid;
+}
+
+.item-3 {
+    grid-column: 1 / span 3; /* Starts at column 2, spans 4 columns */
+    grid-row: 3; /* Occupies the third row */
+    background-color:white;
+    text-align: center;
+    padding: 20px;
+    border: black solid;
+}
+
+.item-4 {
+    grid-column: 3 / span 3; /* Starts at column 4, spans 2 columns */
+    grid-row: 4; /* Occupies the fourth row */
+    background-color:white;
+    text-align: center;
+    padding: 20px;
+    border: black solid;
+}
+
+.item-5 {
+    grid-column: 1 / span 3; /* Starts at column 2, spans 4 columns */
+    grid-row: 5; /* Occupies the fifth row */
+    background-color:white;
+    text-align: center;
+    padding: 20px;
+    border: black solid;
+}

@@ -12,3 +12,55 @@ body {
 }
 
 /* create additional rules below:  */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column; 
+}
+
+section {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+    flex-direction: column; 
+}
+
+#home {
+    background-color: #a3c1f0; 
+}
+
+#bio {
+    background-color: #f0d1a3;
+}
+
+#portfolio {
+    background-color: #d1a3f0; 
+}
+
+#contact {
+    background-color: #f0a3a3; 
+}
+
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: center;
+}

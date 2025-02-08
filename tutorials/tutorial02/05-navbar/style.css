@@ -10,3 +10,47 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
+
+
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid black;
+    color: black;
+}
+
+
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    border: black solid;
+    padding:20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+h1 {
+    color: black;
+    padding: 10px;
+}
+
+
